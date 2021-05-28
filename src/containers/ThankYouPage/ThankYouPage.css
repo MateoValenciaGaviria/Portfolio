@@ -1,0 +1,22 @@
+.goBackBtn{
+    font-family: Consolas;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    margin-left: 40px;
+    background: #DBDBDB;
+    width: 194px;
+    height: 59px;
+    font-size: 20px;
+    line-height: 23px;
+    color: #212226;
+    outline-style: none;
+    border-style: none;
+    margin-left: 80px;
+}
+
+.goBackBtn:hover{
+    background: #dbdbdb91;
+    cursor: pointer;
+    text-decoration: none;
+    text-decoration-line: none;
+}

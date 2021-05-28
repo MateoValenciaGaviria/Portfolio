@@ -5,6 +5,7 @@ import { Contact } from '../Contact/Contact';
 import { Introduction } from '../Introduction/Introduction';
 import { Profile } from '../Profile/Profile';
 import { Projects } from '../Projects/Projects';
+import { ThankYouPage } from '../ThankYouPage/ThankYouPage';
 import './App.css'
 
 export const App = () => {
@@ -35,15 +36,39 @@ export const App = () => {
           </Route>
           <Route path='/ThanksPage' render={() => 
             <div >
-              
+              <ThankYouPage></ThankYouPage>
             </div>}>
           </Route>
-          <Route path='/Projects' render={() => 
+          <Route path='/Project_msi_redesign' render={() => 
             <div >
               
             </div>}>
           </Route>
-          
+          <Route path='/Project_personal_brand' render={() => 
+            <div >
+              
+            </div>}>
+          </Route>
+          <Route path='/Project_knights_fight' render={() => 
+            <div >
+              
+            </div>}>
+          </Route>
+          <Route path='/Project_tendi' render={() => 
+            <div >
+              
+            </div>}>
+          </Route>
+          <Route path='/Project_bristo' render={() => 
+            <div >
+              
+            </div>}>
+          </Route>
+          <Route path='/Project_abstract_sound_of_amazons' render={() => 
+            <div >
+              
+            </div>}>
+          </Route>
       </HashRouter>
     </main>
   );

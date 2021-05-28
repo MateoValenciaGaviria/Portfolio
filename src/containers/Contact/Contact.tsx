@@ -21,6 +21,7 @@ export const Contact = () =>{
                             <input className="formInputs" name="_subject" placeholder="Subject" type="text"/>
                             <textarea className="formInputs message" name="message" placeholder="Write your message here!" cols={30} rows={10}></textarea>
                             <input type="hidden" name="_captcha" value="false"/>
+                            {/* <input type="hidden" name="_next" value="/ThanksPage" /> */}
                         </div>
                     </div>
                     <button className="contactBtn" type="submit">Send message!</button>

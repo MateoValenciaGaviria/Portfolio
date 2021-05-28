@@ -15,27 +15,33 @@ export const Projects = () =>{
                     <ProjectView
                     imgSrc = {'/img/msiBrand.png'}
                     tittle = {'Msi Website redesign'}
-                    text = {'Website design and development'}></ProjectView>
+                    text = {'Website design and development'}
+                    linkProject = {'/Project_msi_redesign'}></ProjectView>
                     <ProjectView
                     imgSrc = {'/img/marca.png'}
                     tittle = {'Personal branding'}
-                    text = {'Concept and construction'}></ProjectView>
+                    text = {'Concept and construction'}
+                    linkProject = {'/Project_personal_brand'}></ProjectView>
                     <ProjectView
                     imgSrc = {'/img/knightsFightBanner.png'}
                     tittle = {'Knights fight'}
-                    text = {'Video game concept and development'}></ProjectView>
+                    text = {'Video game concept and development'}
+                    linkProject = {'/Project_knights_fight'}></ProjectView>
                     <ProjectView
                     imgSrc = {'/img/tendiBanner.png'}
                     tittle = {'Tendi App'}
-                    text = {'Mobile application development'}></ProjectView>
+                    text = {'Mobile application development'}
+                    linkProject = {'/Project_tendi'}></ProjectView>
                     <ProjectView
                     imgSrc = {'/img/marca.png'}
                     tittle = {'Bristo'}
-                    text = {'Mobile application development'}></ProjectView>
+                    text = {'Mobile application development'}
+                    linkProject = {'/Project_bristo'}></ProjectView>
                     <ProjectView
                     imgSrc = {'/img/abstractSoundBanner.png'}
                     tittle = {'Abstract Sound of Amazons'}
-                    text = {'Concept and web development'}></ProjectView>
+                    text = {'Concept and web development'}
+                    linkProject = {'/Project_abstract_sound_of_amazons'}></ProjectView>
                 </div>
             <HtmlTag tag = {"</section>"}></HtmlTag>
         </div>
