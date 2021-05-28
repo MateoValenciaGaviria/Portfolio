@@ -1,0 +1,34 @@
+.projectViewContainer{
+    display: flex;
+    flex-direction: column;
+    margin-top: 10px;
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 40px;
+}
+
+.projectViewImgContainer{
+    width: 100%;
+}
+
+.projectViewImg{
+    width: 100%;
+}
+
+.projectViewTittle{
+    color: #FFFFFF;
+    font-size: 20px;
+    margin-top: 20px;
+    margin-bottom: 0;
+    font-style: normal;
+    font-weight: bold;
+}
+
+.projectViewText{
+    color: #FFFFFF;
+    font-size: 15px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-style: italic;
+}
