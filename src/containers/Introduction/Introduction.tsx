@@ -4,6 +4,10 @@ import './Introduction.css'
 
 export const Introduction = () => {
 
+    const scrollToContact = () => {
+        window.scrollTo(0,document.body.scrollHeight);
+    }
+
     return(
         <div className="introductionMainContainer">
             <HtmlTag tag={"<h1>"}></HtmlTag>
@@ -12,7 +16,7 @@ export const Introduction = () => {
             <HtmlTag tag={"<h3>"}></HtmlTag>
                 <p className="introductionText">Interactive designer and Web developer</p>
             <HtmlTag tag={"</h3>"}></HtmlTag>
-            <button className="introductionBtn">Send message!</button>
+            <button onClick={scrollToContact} className="introductionBtn">Send message!</button>
             <div className="introductionImgContainer">
                 <img className="introductionImgC" src='/img/scrollDown.png' />
             </div>

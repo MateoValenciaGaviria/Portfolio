@@ -7,6 +7,31 @@
     margin-bottom: 0;
     margin-left: 40px;
     color: #FFFFFF;
-    font-size: 80px;
+    font-size: 50px;
     font-weight: bold;
+}
+
+.profileDescription{
+    display: grid;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-top: 10px;
+    grid-template-columns: repeat(2 , 50%);
+    grid-template-rows: auto;
+    align-items: center;
+}
+
+.profileText{
+    display: flex;
+    flex-direction: column;
+    color: #FFFFFF;
+    font-size: 1.2em;
+    margin-left: 40px;
+    padding-right: 100px;
+}
+
+.profileWordsImg{
+    align-items: center;
+    width: 500px;
+    margin-right: 30px;
 }

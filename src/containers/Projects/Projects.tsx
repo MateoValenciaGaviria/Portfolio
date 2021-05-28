@@ -13,7 +13,7 @@ export const Projects = () =>{
             <HtmlTag tag = {"<section>"}></HtmlTag>
                 <div className='projectsContainer'>
                     <ProjectView
-                    imgSrc = {'/img/marca.png'}
+                    imgSrc = {'/img/msiBrand.png'}
                     tittle = {'Msi Website redesign'}
                     text = {'Website design and development'}></ProjectView>
                     <ProjectView
@@ -21,20 +21,20 @@ export const Projects = () =>{
                     tittle = {'Personal branding'}
                     text = {'Concept and construction'}></ProjectView>
                     <ProjectView
-                    imgSrc = {'/img/marca.png'}
-                    tittle = {'Knight fights'}
+                    imgSrc = {'/img/knightsFightBanner.png'}
+                    tittle = {'Knights fight'}
                     text = {'Video game concept and development'}></ProjectView>
                     <ProjectView
-                    imgSrc = {'/img/marca.png'}
+                    imgSrc = {'/img/tendiBanner.png'}
                     tittle = {'Tendi App'}
                     text = {'Mobile application development'}></ProjectView>
                     <ProjectView
                     imgSrc = {'/img/marca.png'}
-                    tittle = {'Personal branding'}
+                    tittle = {'Bristo'}
                     text = {'Mobile application development'}></ProjectView>
                     <ProjectView
-                    imgSrc = {'/img/marca.png'}
-                    tittle = {'Knight fights'}
+                    imgSrc = {'/img/abstractSoundBanner.png'}
+                    tittle = {'Abstract Sound of Amazons'}
                     text = {'Concept and web development'}></ProjectView>
                 </div>
             <HtmlTag tag = {"</section>"}></HtmlTag>
