@@ -1,5 +1,6 @@
 .introductionMainContainer{
     margin-left: 30px;
+    scroll-behavior: smooth;
 }
 
 .introductionTitle{

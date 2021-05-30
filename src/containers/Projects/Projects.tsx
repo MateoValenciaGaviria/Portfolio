@@ -6,7 +6,7 @@ import './Projects.css'
 export const Projects = () =>{
 
     return(
-        <div className='projectsMainContainer'>
+        <div className='projectsMainContainer' id="projects">
             <HtmlTag tag={"<h1>"}></HtmlTag>
                 <p className="projectsTittle">My projects</p>
             <HtmlTag tag={"</h1>"}></HtmlTag>
@@ -33,8 +33,8 @@ export const Projects = () =>{
                     text = {'Mobile application development'}
                     linkProject = {'/Project_tendi'}></ProjectView>
                     <ProjectView
-                    imgSrc = {'/img/marca.png'}
-                    tittle = {'Bristo'}
+                    imgSrc = {'/img/bristoBanner.png'}
+                    tittle = {'Bristo del G'}
                     text = {'Mobile application development'}
                     linkProject = {'/Project_bristo'}></ProjectView>
                     <ProjectView

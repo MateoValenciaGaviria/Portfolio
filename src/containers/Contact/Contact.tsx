@@ -1,11 +1,12 @@
 import React from 'react';
 import { HtmlTag } from '../../components/HtmlTag/HtmlTag';
+import { motion } from 'framer-motion';
 import './Contact.css'
 
 export const Contact = () =>{
 
     return(
-        <div className="contactContainer">
+        <div className="contactContainer" id="contact">
             <HtmlTag tag={"<h1>"}></HtmlTag>
                 <p className="contactTitle">Get in touch</p>
             <HtmlTag tag={"</h1>"}></HtmlTag>
@@ -24,7 +25,10 @@ export const Contact = () =>{
                             {/* <input type="hidden" name="_next" value="/ThanksPage" /> */}
                         </div>
                     </div>
-                    <button className="contactBtn" type="submit">Send message!</button>
+                    <motion.button 
+                        whileHover={{ scale: 1.1 }}
+                        whileTap={{ scale: 0.9 }}  
+                        className="contactBtn" type="submit">Send message!</motion.button >
                 </form>
             </div>
             <HtmlTag tag={"</form>"}></HtmlTag>
