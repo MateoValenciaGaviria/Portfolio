@@ -17,7 +17,7 @@ const App = () => {
   return (
     <AnimatePresence exitBeforeEnter initial={false}>
     <main>
-        <HashRouter>
+        <HashRouter basename={process.env.PUBLIC_URL}>
           <Redirect from='/' exact to='/Home'></Redirect>
             <Switch>
               <Route path='/Home' render={() => 
