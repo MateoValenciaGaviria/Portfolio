@@ -31,7 +31,7 @@ export const Profile = () =>{
                         I am currently looking for a company to bring about my professional practice and to put into practice my skills and knowledge that I have acquired in all this time.</p>
                     <HtmlTag tag={"</p>"}></HtmlTag>
                 </div>
-                <img className='profileWordsImg' src = {'/img/words.png'} />
+                <img className='profileWordsImg' src = {'./img/words.png'} />
             </div>
         </div>
     );

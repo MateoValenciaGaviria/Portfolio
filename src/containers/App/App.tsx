@@ -24,9 +24,15 @@ const App = () => {
                <HomePage></HomePage>}>
               </Route>
               <Route path='/ThanksPage' render={() => 
-                <div >
-                  <ThankYouPage></ThankYouPage>
-                </div>}>
+                <motion.div
+                initial={{opacity: 0}}
+                animate={{opacity: 1}}
+                exit={{opacity: 0}}
+                transition={{duration: 0.5}}>
+                  <div >
+                    <ThankYouPage></ThankYouPage>
+                  </div>
+                </motion.div>}>
               </Route>
               <Route path='/Project_msi_redesign' render={() => 
                 <ProjectMsiRedesign></ProjectMsiRedesign>}>
@@ -70,10 +76,10 @@ const HomePage = () => {
         <HtmlTag tag={"</html>"}></HtmlTag>
         <div className="appIcons">
           <a href="https://github.com/MateoValenciaGaviria" target="_blank">
-            <img className="icon" src="/img/github.png"/>
+            <img className="icon" src="./img/github.png"/>
           </a>
           <a href="https://www.behance.net/mateovalen835d" target="_blank">
-            <img className="icon" src="/img/behance.png"/>
+            <img className="icon" src="./img/behance.png"/>
           </a>
         </div>
       </div>

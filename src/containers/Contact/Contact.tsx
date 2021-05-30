@@ -22,7 +22,7 @@ export const Contact = () =>{
                             <input className="formInputs" name="_subject" placeholder="Subject" type="text"/>
                             <textarea className="formInputs message" name="message" placeholder="Write your message here!" cols={30} rows={10}></textarea>
                             <input type="hidden" name="_captcha" value="false"/>
-                            {/* <input type="hidden" name="_next" value="/ThanksPage" /> */}
+                            <input type="hidden" name="_next" value="https://mateovalenciagaviria.github.io/Portfolio/#/Portfolio/ThanksPage" />
                         </div>
                     </div>
                     <motion.button 
