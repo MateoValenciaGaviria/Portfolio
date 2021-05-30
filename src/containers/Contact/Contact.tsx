@@ -1,10 +1,14 @@
 import React from 'react';
 import { HtmlTag } from '../../components/HtmlTag/HtmlTag';
-import { Link } from 'react-router-dom';
+import { Link, Redirect } from 'react-router-dom';
 import { motion } from 'framer-motion';
 import './Contact.css'
 
 export const Contact = () =>{
+
+    const goToThanksPage = () =>{
+        <Redirect to="ThanksPage"></Redirect>
+    }
 
     return(
         <div className="contactContainer" id="contact">
@@ -25,12 +29,10 @@ export const Contact = () =>{
                             <input type="hidden" name="_captcha" value="false"/>
                         </div>
                     </div>
-                    <Link to="/ThanksPage">
-                        <motion.button 
-                            whileHover={{ scale: 1.1 }}
-                            whileTap={{ scale: 0.9 }}  
-                            className="contactBtn" type="submit">Send message!</motion.button >
-                    </Link>
+                    <motion.button 
+                        whileHover={{ scale: 1.1 }}
+                        whileTap={{ scale: 0.9 }}  
+                        onClick={goToThanksPage} className="contactBtn" type="submit">Send message!</motion.button >
                 </form>
             </div>
             <HtmlTag tag={"</form>"}></HtmlTag>
