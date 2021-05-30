@@ -12,7 +12,7 @@ export const Contact = () =>{
             <HtmlTag tag={"</h1>"}></HtmlTag>
             <HtmlTag tag={"<form>"}></HtmlTag>
             <div className="formContainer">
-                <form action="https://formsubmit.co/mateo.valencia.g@gmail.com" method="POST">
+                <form action="67d77d22314cccd07704784816192aae" method="POST">
                     <div className="formInputsContainer">
                         <div className="formPersonalData">
                             <input className="formInputs" name="name" placeholder="Name" type="text" required/>
