@@ -7,7 +7,7 @@ import './Contact.css'
 export const Contact = () =>{
 
     const goToThanksPage = () =>{
-        <Redirect to="ThanksPage"></Redirect>
+        <Redirect to='/ThanksPage'></Redirect>
     }
 
     return(
