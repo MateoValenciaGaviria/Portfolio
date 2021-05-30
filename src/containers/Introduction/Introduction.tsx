@@ -27,7 +27,7 @@ export const Introduction = () => {
                     className="introductionBtn">Send message!</motion.button>
             </Link>
             <div className="introductionImgContainer">
-                <img className="introductionImgC" src='./img/scrollDown.png' />
+                <img className="introductionImgC" src='./img/scrolldown.png' />
             </div>
         </div>
     );
