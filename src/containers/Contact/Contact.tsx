@@ -22,6 +22,7 @@ export const Contact = () =>{
                         <div className="formPersonalData">
                             <input className="formInputs" name="name" placeholder="Name" type="text" required/>
                             <input className="formInputs" name="email" placeholder="Email" type="email" required/>
+                            <input type="hidden" name="_next" value="https://mateovalenciagaviria.github.io/Portfolio/#/Portfolio/ThanksPage"/>
                         </div>
                         <div className="formMessageData">
                             <input className="formInputs" name="_subject" placeholder="Subject" type="text"/>
