@@ -1,3 +1,17 @@
+@font-face {
+  font-family: "Consolas";
+  src: local("Consolas"),
+  url("./fonts/consolas/consola.ttf") format("truetype");
+  font-weight: bold;
+}
+
+@font-face {
+  font-family: "ConsolasBold";
+  src: local("ConsolasBold"),
+  url("./fonts/consolas/consolab.ttf") format("truetype");
+  font-weight: bold;
+}
+
 body {
   margin: 0;
   scroll-behavior: smooth;
@@ -8,7 +22,7 @@ body {
   -moz-osx-font-smoothing: grayscale;
   background: #212226;
 
-  font-family: Consolas;
+  font-family: "Consolas";
 }
 
 html {
@@ -17,7 +31,6 @@ html {
 }
 
 code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+  font-family: "Consolas";
 }
 

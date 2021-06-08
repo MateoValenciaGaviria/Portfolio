@@ -4,6 +4,7 @@
 }
 
 .introductionTitle{
+    font-family: "ConsolasBold";
     margin-top: 0;
     margin-bottom: 0;
     margin-left: 40px;
@@ -21,7 +22,7 @@
 }
 
 .introductionBtn{
-    font-family: Consolas;
+    font-family: "Consolas";
     margin-top: 20px;
     margin-bottom: 10px;
     margin-left: 40px;
