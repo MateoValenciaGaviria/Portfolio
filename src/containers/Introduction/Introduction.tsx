@@ -12,7 +12,7 @@ export const Introduction = () => {
                 <p className="introductionTitle">Hello world! <br></br> I'm Mateo_</p>
             <HtmlTag tag={"</h1>"}></HtmlTag>
             <HtmlTag tag={"<h3>"}></HtmlTag>
-                <p className="introductionText">Interactive designer and Web developer</p>
+                <p className="introductionText">Interaction designer and Web developer</p>
             <HtmlTag tag={"</h3>"}></HtmlTag>
             <Link
                 activeClass="active"
