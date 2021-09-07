@@ -26,9 +26,12 @@ export const Introduction = () => {
                     whileTap={{ scale: 0.9 }} 
                     className="introductionBtn">Send message!</motion.button>
             </Link>
-            <div className="introductionImgContainer">
+            <motion.div 
+            animate={{ y: -10 }}
+            transition={{yoyo: Infinity}}
+            className="introductionImgContainer">
                 <img className="introductionImgC" src='./img/scrolldown.png' />
-            </div>
+            </motion.div>
         </div>
     );
 }
